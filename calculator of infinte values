@@ -1,0 +1,8 @@
+total = 0
+while True:
+    a = int(input("Enter amount in Rs: "))
+    if a == 0:
+        break
+    total += a
+
+print("Total is", total)
