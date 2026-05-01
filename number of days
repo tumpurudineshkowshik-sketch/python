@@ -1,0 +1,4 @@
+from datetime import date
+a=date(2006,3,26)
+b=date(2026,5,1)
+print("no of days geethika lived:",b-a)
