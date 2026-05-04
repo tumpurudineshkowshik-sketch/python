@@ -1,0 +1,8 @@
+import qrcode
+qr=qrcode.QRcode()
+a="anju kumar is gay"
+qr.add_data(a)
+qr.make(fit=True)
+res=qr.make_image(fill_color="black",black_color)
+res.save("ANJU.png")
+print("created anju")
