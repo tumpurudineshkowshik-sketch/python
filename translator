@@ -1,0 +1,6 @@
+from google trans import translator
+t=Translator()
+a=input("enter text u want to convert")
+b=input("enter the target language")
+les=t.Translator(a,dest=b)
+print(res.text)
